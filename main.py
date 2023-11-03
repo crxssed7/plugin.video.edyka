@@ -166,6 +166,8 @@ def router(paramstring):
         elif mode == "play":
             validate_source(source)
             play(source)
+        else:
+            quit()
 
 if __name__ == '__main__':
     router(sys.argv[2][1:])
